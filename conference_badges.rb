@@ -20,3 +20,5 @@ def assign_rooms(speakers)
     room_msg.push("Hello, #{speaker}! You'll be assigned to #{room_num}!")
     room_num += 1
 end
+room_msg
+end
