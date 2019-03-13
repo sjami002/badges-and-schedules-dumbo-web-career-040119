@@ -4,6 +4,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers)
+  badge_msg = []
   speakers.each do |speaker|
-    badge_maker(speaker)
+    message = badge_maker(speaker)
+    badge_msg.push(message)
+  end
+  badge_msg
 end
